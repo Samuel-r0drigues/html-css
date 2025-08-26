@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner ">
+        <h1>Sistema de cadastro Escolar</h1>
+        <p>Bem-vindo ao sistema de cadastro da nossa escola virtual</p>
+    
+
+        <h2>Menu de cadastro</h2>
+        <a href="aluno.html"><button>Cadastrar aluno</button></a>
+        <a href="professor.html"><button>Cadastrar professor</button></a>
+        <a href="livro.html"><button>Cadastrar livro</button></a>
+        <a href="curso.html"><button>Cadastrar curso</button></a>
+
+        <div class="formulario">
+            <h2>Cadastrar aluno</h2>
+            <form action="">
+                <label for="nome">Nome completo</label><br>
+                <input type="text" class="nome"><br><br>
+
+                <label for="data">Data de nascimento</label><br>
+                 <input type="date" name="Data" class="data"><br><br>       
+
+                 <label for="e-mail">E-mail</label><br>
+                 <input type="email" name="E-mail" class="E-mail"><br><br>
+
+                 <label for="telefone">Telefone</label><br>
+                 <input type="text" name="Telefone" class="Telefone"><br><br>
+
+                 <label for="serie/ano">Serie/Ano</label><br>
+                 <select id="serie" name="serie/ano">
+                    <option value="medio-1a">1° Medio A</option>
+                    <option value="medio-1b">1° Medio B</option>
+                    <option value="medio-2a">2° Medio A</option>
+                    <option value="medio-2a">2° Medio B</option>
+                    <option value="medio-3a">3° Medio A</option>
+                    <option value="medio-3a">3° Medio B</option>
+
+                 </select>
+
+                 <label for="periodo">Periodo</label><br>
+                 <input type="radio" name="Manhã"
+                 value="Manhã">Manhã <br>
+                 <input type="radio" name="Tarde"
+                 value="Tarde">Tarde <br>
+                 <input type="radio" nome="Noite"
+                 value="Noite">Noite <br><br>
+
+
+                 <label for="atividades extras">Atividades Extras</label><br>
+                 <input type="checkbox" nome="Esportes"
+                 value="Esportes">Esportes <br>
+                 <input type="checkbox" nome="MUsica"
+                 value="Musica">Musica <br>
+                 <input type="checkbox" nome="Teatro"
+                 value="Teatro">Teatro <br>
+                 <input type="checkbox" nome="Informatica"
+                 value="Informatica">Informatica <br><br>
+
+                 <label for="observações">Observações</label><br>
+                 <textarea id="observações" name="observações"  rows="4" cols="50"  placeholder="Faça suas observações"></textarea><br>
+
+
+                 <a id="cadastrar" type="submit"><button>Cadastrar aluno</button></a>      <a id="Limpar dados" type="reset"><button>limpar Dados</button></a>
+            
+            
+            </form>
+            
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

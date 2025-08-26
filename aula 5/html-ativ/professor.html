@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="conteiner ">
+        <h1>Sistema de cadastro Escolar</h1>
+        <p>Bem-vindo ao sistema de cadastro da nossa escola virtual</p>
+    
+
+        <h2>Menu de cadastro</h2>
+        <a href="professor.html"><button class="professor">Cadastrar professor</button></a>
+        <a href="aluno.html"><button class="professor">Cadastrar aluno</button></a>
+        <a href="livro.html"><button class="professor">Cadastrar livro</button></a>
+        <a href="curso.html"><button class="professor">Cadastrar curso</button></a>
+
+        <div class="formulario">
+            <h2>Cadastrar professor</h2>
+            <form action="">
+                <label for="nome">Nome completo</label><br>
+                <input type="text" class="nome"><br><br>
+
+                <label for="CPF">CPF</label><br>
+                 <input type="text" name="CPF" class="CPD"><br><br>       
+
+                 <label for="e-mail">E-mail intitucional</label><br>
+                 <input type="email" name="E-mail" class="E-mail"><br><br>
+
+                 <label for="Formação">Formação</label><br>
+                 <select id="Formação" name="Selecione a Formação">
+                    <option value="graduação">Graduação</option>
+                    <option value="especialização">Especialzação</option>
+                    <option value="mestrado">Mestrado</option>
+                    <option value="doutorado">Doutorado</option>
+                 </select><br><br>
+                    
+                 <label for="Diciplinaque leciona">Diciplinaque leciona</label><br>
+                 <input type="checkbox" nome="matematica" 
+                 value="matematica">Matematica <br>
+                 <input type="checkbox" nome="português"
+                 value="português">português <br>
+                 <input type="checkbox" nome="história"
+                 value="história">história <br>
+                 <input type="checkbox" nome="geografia"
+                 value="geografia">geografia <br>
+                  <input type="checkbox" nome="ciências"
+                 value="ciências">ciências <br>
+                 <input type="checkbox" nome="educação fisíca"
+                 value="educação fisíca">educação fisíca <br><br>
+
+
+                 <label for="carga horaria semanal">carga horaria semanal </label><br>
+                 <input type="text" name="Horas"
+                 value="">Horas <br><br>
+
+                 <label for="Experiencia(Anos)">Experiencia (anos) </label><br>
+                 <input type="text" name="Anos"
+                 value="">Anos <br><br>
+
+                 <label for="Disponibilidade">Disponibilidade</label><br>
+                 <input type="radio" name="Periodo integral"
+                 value="periodo integral">Periodo integral <br>
+
+                  <input type="radio" name="Periodo parcial"
+                 value="periodo parcial">Periodo parcial <br>
+
+
+
+                <a id="cadastrar" type="submit"><button>Cadastrar professor</button></a>      <a id="Limpar dados" type="reset"><button>limpar Dados</button></a>
+
+               
+            
+            
+            </form>
+            
+
+        </div>
+
+
+
+
+   </div>
+
+
+    
+</body>
+</html>
