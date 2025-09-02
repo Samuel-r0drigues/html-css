@@ -1,0 +1,38 @@
+body {
+    background-color: f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.bloco {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.bloco1 {
+    background-color: #fdfaad;
+    color: 000000;
+    border: 2px solid 000000
+}
+
+.bloco2 {
+    background-color: #6978ff;
+    color: white;
+    border: 2px solid #ffe058
+}
+
+.bloco3 {
+    background-color: #a1aaff;
+    color: #6978ff;
+    border: 2px solid #6978ff
+}
+
+.bloco4 {
+    background-color: #c7ddfd;
+    color: 000000;
+    border: 2px solid 000000
+}
+
+
+
+
