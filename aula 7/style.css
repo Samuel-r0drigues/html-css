@@ -1,0 +1,122 @@
+/* 1. Cor do parágrafo (TAG) */
+p {
+  color: blue;
+}
+
+/* 2. Título principal (ID) */
+#titulo-principal {
+  background: yellow;
+}
+
+/* 3. Subtítulos (CLASSE) */
+.subtitulo {
+  color: green;
+}
+
+/* 4. Itens de lista (TAG) */
+li {
+  color: purple;
+}
+
+/* 5. Duas caixas (CLASSE) */
+.caixa1 {
+  background: lightblue;
+}
+.caixa2 {
+  background: lightgreen;
+}
+
+/* 6. Agrupando seletores (TAGS AGRUPADOS) */
+p, h2, h3 {
+  color: brown;
+}
+
+/* 7. Texto centralizado (ID) */
+#texto-central {
+  text-align: center;
+}
+
+/* 8. Dois links diferentes (ID) */
+#link1 {
+  color: red;
+}
+#link2 {
+  color: blue;
+}
+
+/* 9. Classe compartilhada (CLASSE) */
+.negrito {
+  font-weight: bold;
+}
+
+/* 10. Imagens com borda (TAG) */
+img {
+  border: 3px solid black;
+}
+
+/* 11. Descendente básico (DESCENDENTE) */
+div p {
+  color: orange;
+}
+
+/* 12. Dois parágrafos diferentes (CLASSE) */
+.paragrafo1 {
+  color: teal;
+}
+.paragrafo2 {
+  color: darkred;
+}
+
+/* 13. Fonte personalizada (ID) */
+#fonte-arial {
+  font-family: Arial, sans-serif;
+}
+
+/* 14. Estilos diferentes (CLASSE) */
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+
+/* 15. Título dentro da div (DESCENDENTE) */
+div h3 {
+  color: darkblue;
+}
+
+/* 16. Três caixas coloridas (ID) */
+#caixa-vermelha {
+  background: red;
+}
+#caixa-verde {
+  background: green;
+}
+#caixa-azul {
+  background: blue;
+}
+
+/* 17. Span destacado (CLASSE) */
+.destaque {
+  color: crimson;
+}
+
+/* 18. Caixa estilizada (ID) */
+#caixa-estilizada {
+  background: lightgray;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+/* 19. Links sublinhados (CLASSE) */
+.link-sublinhado {
+  text-decoration: underline;
+}
+
+/* 20. Agrupando elementos (AGRUPADO) */
+h1, p, a {
+  color: darkgreen;
+}
