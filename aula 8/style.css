@@ -1,0 +1,182 @@
+.tabela1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tabela1 th, .tabela1 td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tabela2 th {
+    background-color: gray;
+}
+.tabela2, .tabela2 th, .tabela2 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela3 {
+    color: blue;
+}
+.tabela3, .tabela3 th, .tabela3 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela4 {
+    font-family: Arial, sans-serif;
+}
+.tabela4, .tabela4 th, .tabela4 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela5 th {
+    font-size: 1.2em;
+}
+.tabela5, .tabela5 th, .tabela5 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela6 th, .tabela6 td {
+    background-color: #f0f0f0;
+}
+.tabela6, .tabela6 th, .tabela6 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela7 th, .tabela7 td {
+    text-align: center;
+}
+.tabela7, .tabela7 th, .tabela7 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela8 {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.tabela8 th, .tabela8 td {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.tabela9 th {
+    color: red;
+}
+.tabela9, .tabela9 th, .tabela9 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela10 th, .tabela10 td {
+    padding: 10px;
+}
+.tabela10, .tabela10 th, .tabela10 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela11 td {
+    font-style: italic;
+}
+.tabela11, .tabela11 th, .tabela11 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela12 td {
+    font-weight: bold;
+}
+.tabela12, .tabela12 th, .tabela12 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela13 tr:first-child {
+    background-color: #d0d0d0;
+}
+.tabela13, .tabela13 th, .tabela13 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela14 td {
+    color: green;
+}
+.tabela14, .tabela14 th, .tabela14 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela15 {
+    font-family: "Verdana", sans-serif;
+    font-size: 1.1em;
+}
+.tabela15, .tabela15 th, .tabela15 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela16 tr:nth-child(2) {
+    background-color: #f0f0f0;
+}
+.tabela16, .tabela16 th, .tabela16 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela17 {
+    background-color: #333;
+    color: #fff;
+}
+.tabela17, .tabela17 th, .tabela17 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela18 {
+    text-transform: uppercase;
+}
+.tabela18, .tabela18 th, .tabela18 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela19 th {
+    font-family: "Arial", sans-serif;
+}
+.tabela19, .tabela19 th, .tabela19 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabela20 {
+    border: 1px solid black;
+    color: white;
+    background-color: #0077cc;
+}
+.tabela20 th, .tabela20 td {
+    border: 1px solid black;
+    padding: 5px;
+}
