@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios HTML Semântico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 1 - Estrutura com <section>
+====================================================== -->
+<header>
+    <h1>Meus Hobbies</h1>
+    <p>Conheça um pouco sobre o que gosto de fazer no meu tempo livre.</p>
+</header>
+
+<main>
+    <section>
+        <h2>🎮 Jogar Video Games</h2>
+        <p>Adoro explorar mundos diferentes e testar minhas habilidades em jogos de aventura e estratégia.</p>
+    </section>
+
+    <section>
+        <h2>📚 Ler Livros</h2>
+        <p>Os livros me transportam para outros universos e me fazem refletir sobre diferentes perspectivas.</p>
+    </section>
+
+    <section>
+        <h2>🏃‍♂️ Praticar Esportes</h2>
+        <p>Correr e jogar futebol me ajudam a manter o corpo saudável e a mente ativa.</p>
+    </section>
+</main>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 2 - Trabalhando com <article>
+====================================================== -->
+<section id="reviews">
+    <h1>Reviews de Filmes</h1>
+
+    <article>
+        <h2>🎬 Interestelar</h2>
+        <p>Um filme que mistura ficção científica e emoção, explorando o amor e o tempo no espaço.</p>
+        <p>Nota: 10/10 — Um verdadeiro espetáculo visual e narrativo.</p>
+    </article>
+
+    <article>
+        <h2>🦇 Batman: O Cavaleiro das Trevas</h2>
+        <p>Um clássico moderno com um vilão inesquecível. A atuação de Heath Ledger é lendária.</p>
+        <p>Nota: 9.5/10 — Intenso, sombrio e cheio de significado.</p>
+    </article>
+
+    <article>
+        <h2>🧙 O Senhor dos Anéis</h2>
+        <p>Uma trilogia épica sobre coragem, amizade e a luta contra o mal.</p>
+        <p>Nota: 10/10 — Uma jornada inesquecível pela Terra Média.</p>
+    </article>
+</section>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 3 - Cabeçalho e Rodapé
+====================================================== -->
+<header>
+    <h1>Site Exemplo</h1>
+    <p>Aprendendo HTML de forma prática</p>
+</header>
+
+<main>
+    <p>Este é o conteúdo principal da página.</p>
+</main>
+
+<footer>
+    <p>© 2025 - Todos os direitos reservados | contato@exemplo.com</p>
+</footer>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 4 - Menu de Navegação
+====================================================== -->
+<nav>
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 5 - Conteúdo Lateral com <aside>
+====================================================== -->
+<section id="pais">
+    <h1>Sobre o Japão</h1>
+    <p>O Japão é um país insular localizado no leste da Ásia, conhecido por sua tecnologia avançada e tradições milenares.</p>
+    <aside>
+        <h3>Curiosidades</h3>
+        <p>O Monte Fuji é considerado sagrado e é o ponto mais alto do país.</p>
+        <p>O Japão possui mais de 6.800 ilhas!</p>
+    </aside>
+</section>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 6 - Figuras e Legendas
+====================================================== -->
+<section id="galeria">
+    <h1>Galeria de Imagens</h1>
+
+    <figure>
+        <img src="https://via.placeholder.com/300x200" alt="Paisagem 1">
+        <figcaption>Montanhas ao pôr do sol</figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://via.placeholder.com/300x200" alt="Paisagem 2">
+        <figcaption>Floresta encantada</figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://via.placeholder.com/300x200" alt="Paisagem 3">
+        <figcaption>Praia deserta</figcaption>
+    </figure>
+</section>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 7 - Aninhamento de Elementos
+====================================================== -->
+<article>
+    <header>
+        <h1>Guia: Como Criar um Site Simples</h1>
+        <p>Publicado em <time datetime="2025-10-07">7 de Outubro de 2025</time></p>
+    </header>
+
+    <section>
+        <h2>Etapa 1 - Planejamento</h2>
+        <p>Defina o objetivo e o público do seu site.</p>
+    </section>
+
+    <section>
+        <h2>Etapa 2 - Estrutura HTML</h2>
+        <p>Monte a base do site com tags semânticas.</p>
+    </section>
+
+    <section>
+        <h2>Etapa 3 - Estilo CSS</h2>
+        <p>Deixe o site bonito aplicando cores e fontes.</p>
+    </section>
+</article>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 8 - Blog Completo
+====================================================== -->
+<header id="blog-header">
+    <h1>Meu Blog</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Postagens</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<main id="blog-main">
+    <article>
+        <header>
+            <h2>Como aprender HTML</h2>
+            <p><time datetime="2025-09-01">1 de Setembro de 2025</time></p>
+        </header>
+        <section>
+            <p>HTML é a base de toda página web. Aprenda o básico e pratique com exemplos.</p>
+        </section>
+        <footer>Autor: Samuel</footer>
+    </article>
+
+    <article>
+        <header>
+            <h2>Dicas de Produtividade</h2>
+            <p><time datetime="2025-09-15">15 de Setembro de 2025</time></p>
+        </header>
+        <section>
+            <p>Organize suas tarefas e mantenha o foco para aumentar seu rendimento.</p>
+        </section>
+        <footer>Autor: Samuel</footer>
+    </article>
+
+    <aside>
+        <h3>Posts Populares</h3>
+        <ul>
+            <li>Como aprender HTML</li>
+            <li>Melhores extensões VSCode</li>
+            <li>Dicas de CSS</li>
+        </ul>
+    </aside>
+</main>
+
+<footer id="blog-footer">
+    <p>© 2025 Meu Blog | Redes: <a href="#">Instagram</a> | <a href="#">GitHub</a></p>
+</footer>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 9 - Detalhes e Resumo (FAQ)
+====================================================== -->
+<section id="faq">
+    <h1>Perguntas Frequentes</h1>
+
+    <details>
+        <summary>O que é HTML?</summary>
+        <p>É uma linguagem de marcação usada para estruturar páginas web.</p>
+    </details>
+
+    <details>
+        <summary>O que é CSS?</summary>
+        <p>É a linguagem que define o estilo (cores, fontes, layout) de uma página.</p>
+    </details>
+
+    <details>
+        <summary>Como posso aprender programação?</summary>
+        <p>Estude todos os dias e pratique criando projetos reais.</p>
+    </details>
+
+    <details>
+        <summary>O que é JavaScript?</summary>
+        <p>É uma linguagem de programação que adiciona interatividade às páginas.</p>
+    </details>
+
+    <details>
+        <summary>Qual a diferença entre front-end e back-end?</summary>
+        <p>Front-end é a parte visual do site, e back-end é a parte lógica e do servidor.</p>
+    </details>
+</section>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 10 - Elemento <mark>
+====================================================== -->
+<section id="mark">
+    <h1>Conceito Técnico: Internet</h1>
+    <p>A <mark>Internet</mark> é uma rede global que conecta milhões de dispositivos no mundo inteiro.</p>
+    <p>Ela permite a troca de <mark>informações</mark>, o uso de serviços e a comunicação instantânea.</p>
+    <p>O <mark>Protocolo TCP/IP</mark> é o principal conjunto de regras que possibilita essa conexão.</p>
+</section>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 11 - Elemento <time>
+====================================================== -->
+<section id="timeline">
+    <h1>Linha do Tempo - Eventos Históricos</h1>
+
+    <article>
+        <time datetime="1969-07-20">1969</time> - O homem pisa na Lua.
+    </article>
+    <article>
+        <time datetime="1989-11-09">1989</time> - Queda do Muro de Berlim.
+    </article>
+    <article>
+        <time datetime="2008-09-15">2008</time> - Crise financeira global.
+    </article>
+    <article>
+        <time datetime="2020-03-11">2020</time> - Pandemia declarada pela OMS.
+    </article>
+    <article>
+        <time datetime="2025-01-01">2025</time> - Avanços em IA generativa.
+    </article>
+</section>
+
+<!-- =====================================================
+🧩 EXERCÍCIO 12 - Projeto Integrador (Portfólio)
+====================================================== -->
+<header id="portfolio-header">
+    <h1>Samuel Henrique - Portfólio</h1>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main id="portfolio-main">
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor apaixonado por tecnologia e educação.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <article>
+            <h3>Site Educacional</h3>
+            <p>Um projeto criado para ensinar HTML de forma prática.</p>
+        </article>
+        <article>
+            <h3>Aplicativo de Tarefas</h3>
+            <p>App simples para organizar o dia a dia e aumentar a produtividade.</p>
+        </article>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML, CSS e JavaScript</li>
+            <li>Git e GitHub</li>
+            <li>Metodologias Ágeis</li>
+        </ul>
+    </section>
+
+    <aside>
+        <h3>Contato</h3>
+        <p>Email: samuel@exemplo.com</p>
+    </aside>
+</main>
+
+<footer id="portfolio-footer">
+    <p>© 2025 Samuel Henrique | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+</footer>
+
+</body>
+</html>
